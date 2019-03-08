@@ -1,37 +1,16 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+@extends('templates.plantilla')
 
-<link href="/DatumBase/public/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+@section('titulo','LOGIN')
 
-<link rel="stylesheet" href="/DatumBase/public/css/bootstrap.css">
-<link rel="stylesheet" href="/DatumBase/public/css/login.css">
-<link rel="stylesheet" href="/DatumBase/public/js/login.css">
-
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="/DatumBase/public/js/jquery-1.11.1.min.js"></script>
-<script src="/DatumBase/public/js/popper.min.js"></script>
+@section('principal')
 
 
-
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-<script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
-
-</head>
-<body>
     <div class="container">
         <div class="row vertical-offset-100">
             <div class="col-md-4 col-md-offset-4">
                 <div class="panel panel-default">
                       <div class="panel-heading">
-                        <h3 class="panel-title">Please sign in</h3>
+                        <h3 class="panel-title">Iniciar sessió</h3>
                      </div>
                       <div class="panel-body">
                         <form accept-charset="UTF-8" role="form">
@@ -55,5 +34,6 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+
+
+@endsection
